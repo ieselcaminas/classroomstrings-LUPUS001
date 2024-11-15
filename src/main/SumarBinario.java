@@ -1,5 +1,5 @@
 public class SumarBinario {
-    public static String sumarBinario(String cadena1, String cadena2){
+    public static String sumaBinario(String cadena1, String cadena2){
         String res = "";
         char b1;//almacena los '0' y '1' de cadena1
         char b2;//almacena los '0' y '1' de cadena2
@@ -38,6 +38,6 @@ public class SumarBinario {
         return res;
     }
     public static void main(String[] args) {
-        System.out.println(sumarBinario("1001", "1011"));
+        System.out.println(sumaBinario("1001", "1011"));
     }
 }
